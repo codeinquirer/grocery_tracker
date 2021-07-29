@@ -1,0 +1,200 @@
+
+@media only screen and (max-width: 760px){
+   #navbarHeader button{
+       font-size: 25px;
+       padding: 10px 10px 10px 10px;
+       max-height: 50px;
+       margin: 0 !important;
+    }
+    #siteTitle{
+        margin-left: 5px;
+    }
+    #navMenu{
+        float: right;
+        padding: 10px 0 !important;
+        width: 100%;
+        margin: 0 !important;
+    }
+    #navMenu li{
+        width: 100%;
+        display: block;
+        text-align: right;
+        
+    }
+    #navMenu li:first-child{
+        border-bottom: .5px solid #008040;
+    }
+    #bs-navbar{
+        position: fixed;
+        z-index: 100000;
+        background: #006633;
+        width: 100%;
+    }
+
+    .menuBtn{
+        width: 80vw;
+        display: block;
+        padding: 20px;
+    }
+}
+
+
+#navMenu{
+    float: right;
+    margin: 0 !important;
+}
+
+header{
+    color: white;
+    position: fixed; 
+    width: 100%; 
+    background: #004d26;
+    margin:0 !important;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+#siteTitle{
+    font-weight: bold;
+    padding: 0;
+    width: 254px
+}
+#siteTitle h3{
+    line-height: 50px;
+    margin: 0;
+}
+#navMenu li a:hover{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black !important;
+    
+}
+aside div.input-group{
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    border-radius: 4px;
+}
+#mainSubCon p{
+    font-size: 16px;
+}
+#panelInfo{
+    margin:20px 0 0 0;
+    border-color: rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+#mainPageMain{
+    position: fixed;
+    overflow: auto;
+    height: calc(100% - 50px);
+    width: 100vw;
+    background: #e6fff2
+}
+.menuBtn{
+    margin: 0 auto;
+    font-weight: 900;
+    font-size: 40px;
+    display: inline-block;
+    margin:0 auto;
+    padding: 20px;
+}
+@media only screen and (max-width: 400px){
+    .menuBtn{
+        font-size: 30px;
+        display: block;
+    }
+}
+
+body{
+    min-width: 320px;
+}
+
+#listUl{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    float: left;
+    width: 100%;
+}
+#listUl li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    margin: 1px;
+}
+
+.listBtn{
+    text-decoration: none;
+    font-size: 35px;
+    word-wrap: break-word;
+    max-width: 100px;
+    max-height: 100px;
+    width: 30vw;
+    height: 30vw;
+    text-align: center;
+}
+.listBtn p{
+    font-size: 15px;
+    margin: 0;
+}
+.myList p{
+    font-size: 13px !important;
+    margin-top: 2px;
+}
+@media only screen and (max-width: 300px){
+    .listBtn div{
+        padding: 5px 0 !important;
+    }
+    .listBtn p{
+        font-size: 11px !important;
+    }
+    .listBtn i{
+        font-size: 25px;
+    }
+}
+
+#listNameCon{
+    display: block;
+    float: left;
+    width: 85%;
+    margin: 0 auto
+
+}
+#listNameCon label{
+    display: block;
+}
+#listNameCon button{
+    float: left;
+    display: inline-block ;
+}
+#listNameCon input{
+    float: left;
+    display: inline-block !important;
+    width: 90%;
+    margin-right: 10px;
+}
+
+#addProductCon{
+    display: none;
+    width: 100%;
+    float: left;
+    margin: 10px 0 0 0;
+    padding: 10px 25px 10px 10px;
+
+}
+#listContentsDisp{
+    display: none;
+    width: 100%;
+    float: left;
+    margin: 10px 0 0 0;
+}
+@media only screen and (max-width: 400px){
+    #listContentsDisp table tbody tr button{
+        padding: 3px 5px;
+        font-size: 12px;
+    }
+}
